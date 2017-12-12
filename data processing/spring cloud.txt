@@ -1,0 +1,38 @@
+Spring Cloud是一个非常庞大的服务类库集
+里面主要是2套框架，一套是适用于Spring framework的类库，另一个是由于外界使用过于频繁，不得不支持的。
+主页http://projects.spring.io/spring-cloud/ 下方可以看到所有的库
+
+spring-cloud-aws
+spring-cloud-bus 
+spring-cloud-cli 
+spring-cloud-commons
+spring-cloud-contract
+spring-cloud-config
+spring-cloud-netflix
+spring-cloud-security
+spring-cloud-cloudfoundry
+spring-cloud-consul
+spring-cloud-sleuth
+spring-cloud-stream
+spring-cloud-zookeeper
+spring-boot
+spring-cloud-task
+spring-cloud-vault
+spring-cloud-gateway
+
+这些库主要分2类：
+继承的外部库和自己的库：
+
+spring-cloud-netflix spring-cloud-sleuth spring-cloud-zookeeper spring-cloud-cloudfoundry spring-cloud-aws
+这些都是方便Spring 可以方便的集成到平台或者使用库
+
+还有一类是轻量级的库，方便单独使用Spring的用
+比如 spring-cloud-config 就是轻量级的zookeeper
+spring-cloud-task 是标准未来做serverless 准备的库
+
+很多我都没有接触过，你可以直接点进去看看
+
+知乎有不错的简单介绍，之后大量的东西就要看 代码和案例了
+https://zhuanlan.zhihu.com/p/25141622
+
+

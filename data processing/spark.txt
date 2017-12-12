@@ -1,0 +1,15 @@
+Spark 主要竞争对象是Hadoop 和Spring XD
+Spring XD 主页
+http://projects.spring.io/spring-xd/
+
+Spark 主页
+https://spark.apache.org/
+
+同样知乎有很好的资源
+https://www.zhihu.com/topic/19942170/hot
+
+Spark 主要集成 Kafka 做大数据的数据处理
+好处是，Spark 可以并行，并且基于内存，速度高于Hadoop，缺点是相对吃资源。
+
+关于Spark 集成Kafka 的部分 有代码
+https://spark.apache.org/docs/2.2.0/streaming-kafka-integration.html
