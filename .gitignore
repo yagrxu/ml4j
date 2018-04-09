@@ -1,0 +1,16 @@
+.idea
+build
+dist
+**/__pycache__
+*.egg-info
+*.pyc
+_requirements
+.eggs
+.project
+.pydevproject
+gen
+.xmake
+import
+.project
+**.log
+**/test_local
