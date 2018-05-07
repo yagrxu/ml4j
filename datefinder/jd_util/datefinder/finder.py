@@ -7,6 +7,8 @@ class DateFinder(object):
         pass
     def finditer(self, text):
         # split space
+        if text is None or isinstance(text, str):
+            return []
         iters = []
         for regex in JD_DATES:
             jd_regex = re.compile(regex)
