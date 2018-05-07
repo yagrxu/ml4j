@@ -19,9 +19,10 @@ from jd_util.datefinder.finder import DateFinder
 
 
 # code
-finder = DateFinder()
-iterator = finder.finditer("Sunday, March 15-16.")
-for item in iterator:
-	print(item.group())
+
+``` python
+import jd_util.datefinder as finder
+# the output below is an array
+print(finder.find('a date 10th May here'))
 
 ```

@@ -12,4 +12,3 @@ class DateFinder(object):
             jd_regex = re.compile(regex)
             iters.append(jd_regex.finditer(text))
         return chain.from_iterable(iters)
-        
